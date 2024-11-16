@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-22T06:02:22Z" name="OrangeHRM Test Suite" finished-at="2024-02-22T06:03:34Z" duration-ms="72389">
+    <groups>
+    </groups>
+    <test started-at="2024-02-22T06:02:22Z" name="Admin Login TestCase with valid credentials" finished-at="2024-02-22T06:02:28Z" duration-ms="6346">
+      <class name="orangehrm.testcases.AdminLoginTestwithValidData">
+        <test-method signature="checkAdminLogin(java.lang.String, java.lang.String)[pri:0, instance:orangehrm.testcases.AdminLoginTestwithValidData@610f7aa]" started-at="2024-02-22T06:02:22Z" name="checkAdminLogin" finished-at="2024-02-22T06:02:28Z" duration-ms="6317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+      </class> <!-- orangehrm.testcases.AdminLoginTestwithValidData -->
+    </test> <!-- Admin Login TestCase with valid credentials -->
+    <test started-at="2024-02-22T06:02:28Z" name="Admin Login TestCase with invalid credentials" finished-at="2024-02-22T06:02:30Z" duration-ms="1525">
+      <class name="orangehrm.testcases.AdminLoginTestwithInvalidData">
+        <test-method signature="checkAdminLogin(java.lang.String, java.lang.String)[pri:0, instance:orangehrm.testcases.AdminLoginTestwithInvalidData@6bf0219d]" started-at="2024-02-22T06:02:28Z" name="checkAdminLogin" finished-at="2024-02-22T06:02:30Z" duration-ms="1511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+      </class> <!-- orangehrm.testcases.AdminLoginTestwithInvalidData -->
+    </test> <!-- Admin Login TestCase with invalid credentials -->
+    <test started-at="2024-02-22T06:02:30Z" name="New Employee Registration Test" finished-at="2024-02-22T06:02:41Z" duration-ms="11417">
+      <class name="orangehrm.testcases.EmployeeRegTest">
+        <test-method is-config="true" signature="adminLogin()[pri:0, instance:orangehrm.testcases.EmployeeRegTest@6497b078]" started-at="2024-02-22T06:02:30Z" name="adminLogin" finished-at="2024-02-22T06:02:31Z" duration-ms="1696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method signature="checkEmpReg(java.lang.String, java.lang.String)[pri:0, instance:orangehrm.testcases.EmployeeRegTest@6497b078]" started-at="2024-02-22T06:02:31Z" name="checkEmpReg" finished-at="2024-02-22T06:02:40Z" duration-ms="8233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sreekar1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[V]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmpReg -->
+        <test-method is-config="true" signature="adminlogout()[pri:0, instance:orangehrm.testcases.EmployeeRegTest@6497b078]" started-at="2024-02-22T06:02:40Z" name="adminlogout" finished-at="2024-02-22T06:02:41Z" duration-ms="1482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogout -->
+      </class> <!-- orangehrm.testcases.EmployeeRegTest -->
+    </test> <!-- New Employee Registration Test -->
+    <test started-at="2024-02-22T06:02:41Z" name="New User Registration Test" finished-at="2024-02-22T06:03:10Z" duration-ms="28897">
+      <class name="orangehrm.testcases.UserRegTest">
+        <test-method is-config="true" signature="adminLogin()[pri:0, instance:orangehrm.testcases.UserRegTest@8317c52]" started-at="2024-02-22T06:02:41Z" name="adminLogin" finished-at="2024-02-22T06:02:43Z" duration-ms="1722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method signature="checkUserReg(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:orangehrm.testcases.UserRegTest@8317c52]" started-at="2024-02-22T06:02:43Z" name="checkUserReg" finished-at="2024-02-22T06:03:09Z" duration-ms="25717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ESS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sreekar V]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sreekar1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUserReg -->
+        <test-method is-config="true" signature="adminlogout()[pri:0, instance:orangehrm.testcases.UserRegTest@8317c52]" started-at="2024-02-22T06:03:09Z" name="adminlogout" finished-at="2024-02-22T06:03:10Z" duration-ms="1455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogout -->
+      </class> <!-- orangehrm.testcases.UserRegTest -->
+    </test> <!-- New User Registration Test -->
+    <test started-at="2024-02-22T06:03:10Z" name="Employee Login Test" finished-at="2024-02-22T06:03:34Z" duration-ms="24024">
+      <class name="orangehrm.testcases.EmployeeLoginTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:orangehrm.testcases.EmployeeLoginTest@61d6015a]" started-at="2024-02-22T06:02:14Z" name="launchApp" finished-at="2024-02-22T06:02:22Z" duration-ms="7339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="checkEmpLogin(java.lang.String, java.lang.String)[pri:0, instance:orangehrm.testcases.EmployeeLoginTest@61d6015a]" started-at="2024-02-22T06:03:10Z" name="checkEmpLogin" finished-at="2024-02-22T06:03:34Z" duration-ms="24021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sreekar1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmpLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:orangehrm.testcases.EmployeeLoginTest@61d6015a]" started-at="2024-02-22T06:03:34Z" name="closeApp" finished-at="2024-02-22T06:03:35Z" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- orangehrm.testcases.EmployeeLoginTest -->
+    </test> <!-- Employee Login Test -->
+  </suite> <!-- OrangeHRM Test Suite -->
+</testng-results>

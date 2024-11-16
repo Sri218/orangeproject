@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-28T05:49:46Z" name="OrangeHRM Test Suite" finished-at="2024-09-28T05:50:19Z" duration-ms="33379">
+    <groups>
+    </groups>
+    <test started-at="2024-09-28T05:49:46Z" name="Admin Login TestCase with valid credentials" finished-at="2024-09-28T05:49:49Z" duration-ms="2630">
+      <class name="orangehrm.testcases.AdminLoginTestwithValidData">
+        <test-method signature="checkAdminLogin(java.lang.String, java.lang.String)[pri:0, instance:orangehrm.testcases.AdminLoginTestwithValidData@7748410a]" started-at="2024-09-28T05:49:46Z" name="checkAdminLogin" finished-at="2024-09-28T05:49:49Z" duration-ms="2613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+      </class> <!-- orangehrm.testcases.AdminLoginTestwithValidData -->
+    </test> <!-- Admin Login TestCase with valid credentials -->
+    <test started-at="2024-09-28T05:49:49Z" name="Admin Login TestCase with invalid credentials" finished-at="2024-09-28T05:49:49Z" duration-ms="666">
+      <class name="orangehrm.testcases.AdminLoginTestwithInvalidData">
+        <test-method signature="checkAdminLogin(java.lang.String, java.lang.String)[pri:0, instance:orangehrm.testcases.AdminLoginTestwithInvalidData@76f2bbc1]" started-at="2024-09-28T05:49:49Z" name="checkAdminLogin" finished-at="2024-09-28T05:49:49Z" duration-ms="659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+      </class> <!-- orangehrm.testcases.AdminLoginTestwithInvalidData -->
+    </test> <!-- Admin Login TestCase with invalid credentials -->
+    <test started-at="2024-09-28T05:49:49Z" name="New Employee Registration Test" finished-at="2024-09-28T05:49:55Z" duration-ms="6080">
+      <class name="orangehrm.testcases.EmployeeRegTest">
+        <test-method is-config="true" signature="adminLogin()[pri:0, instance:orangehrm.testcases.EmployeeRegTest@776b83cc]" started-at="2024-09-28T05:49:49Z" name="adminLogin" finished-at="2024-09-28T05:49:51Z" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method signature="checkEmpReg(java.lang.String, java.lang.String)[pri:0, instance:orangehrm.testcases.EmployeeRegTest@776b83cc]" started-at="2024-09-28T05:49:51Z" name="checkEmpReg" finished-at="2024-09-28T05:49:55Z" duration-ms="4267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sreekar1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[V]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmpReg -->
+        <test-method is-config="true" signature="adminlogout()[pri:0, instance:orangehrm.testcases.EmployeeRegTest@776b83cc]" started-at="2024-09-28T05:49:55Z" name="adminlogout" finished-at="2024-09-28T05:49:55Z" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogout -->
+      </class> <!-- orangehrm.testcases.EmployeeRegTest -->
+    </test> <!-- New Employee Registration Test -->
+    <test started-at="2024-09-28T05:49:55Z" name="New User Registration Test" finished-at="2024-09-28T05:50:05Z" duration-ms="9656">
+      <class name="orangehrm.testcases.UserRegTest">
+        <test-method is-config="true" signature="adminLogin()[pri:0, instance:orangehrm.testcases.UserRegTest@52102734]" started-at="2024-09-28T05:49:55Z" name="adminLogin" finished-at="2024-09-28T05:49:57Z" duration-ms="1263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method signature="checkUserReg(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:orangehrm.testcases.UserRegTest@52102734]" started-at="2024-09-28T05:49:57Z" name="checkUserReg" finished-at="2024-09-28T05:50:04Z" duration-ms="7731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ESS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sreekar1 V]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sreekar1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUserReg -->
+        <test-method is-config="true" signature="adminlogout()[pri:0, instance:orangehrm.testcases.UserRegTest@52102734]" started-at="2024-09-28T05:50:04Z" name="adminlogout" finished-at="2024-09-28T05:50:05Z" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogout -->
+      </class> <!-- orangehrm.testcases.UserRegTest -->
+    </test> <!-- New User Registration Test -->
+    <test started-at="2024-09-28T05:50:05Z" name="Employee Login Test" finished-at="2024-09-28T05:50:19Z" duration-ms="14246">
+      <class name="orangehrm.testcases.EmployeeLoginTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:orangehrm.testcases.EmployeeLoginTest@d6e7bab]" started-at="2024-09-28T05:49:43Z" name="launchApp" finished-at="2024-09-28T05:49:46Z" duration-ms="2918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="checkEmpLogin(java.lang.String, java.lang.String)[pri:0, instance:orangehrm.testcases.EmployeeLoginTest@d6e7bab]" started-at="2024-09-28T05:50:05Z" name="checkEmpLogin" finished-at="2024-09-28T05:50:19Z" duration-ms="14230" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sreekar1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SRIPRIYA', ip: '192.168.1.109', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\sripr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf22c57f127dcbebf209d051041e4647
+*** Element info: {Using=partial link text, value=Welcome}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SRIPRIYA', ip: '192.168.1.109', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\sripr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf22c57f127dcbebf209d051041e4647
+*** Element info: {Using=partial link text, value=Welcome}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByPartialLinkText(RemoteWebDriver.java:388)
+at org.openqa.selenium.By$ByPartialLinkText.findElement(By.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at orangehrm.library.LoginPage.logout(LoginPage.java:32)
+at orangehrm.testcases.EmployeeLoginTest.checkEmpLogin(EmployeeLoginTest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmpLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:orangehrm.testcases.EmployeeLoginTest@d6e7bab]" started-at="2024-09-28T05:50:19Z" name="closeApp" finished-at="2024-09-28T05:50:19Z" duration-ms="31" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=129.0.6668.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SRIPRIYA', ip: '192.168.1.109', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\sripr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf22c57f127dcbebf209d051041e4647]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=129.0.6668.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SRIPRIYA', ip: '192.168.1.109', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\sripr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf22c57f127dcbebf209d051041e4647
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at utils.AppUtils.closeApp(AppUtils.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:425)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- orangehrm.testcases.EmployeeLoginTest -->
+    </test> <!-- Employee Login Test -->
+  </suite> <!-- OrangeHRM Test Suite -->
+</testng-results>

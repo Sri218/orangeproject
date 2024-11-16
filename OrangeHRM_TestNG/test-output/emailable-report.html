@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">OrangeHRM Test Suite</th></tr>
+<tr><td><a href="#t0">Admin Login TestCase with valid credentials</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">2,630</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Admin Login TestCase with invalid credentials</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">666</td><td></td><td></td></tr>
+<tr><td><a href="#t2">New Employee Registration Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">6,080</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">New User Registration Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">9,656</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Employee Login Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">14,246</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num attn">1</th><th class="num">33,278</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">OrangeHRM Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Admin Login TestCase with valid credentials &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">orangehrm.testcases.AdminLoginTestwithValidData</td><td><a href="#m0">checkAdminLogin</a></td><td rowspan="1">1727502586542</td><td rowspan="1">2613</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Admin Login TestCase with invalid credentials &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">orangehrm.testcases.AdminLoginTestwithInvalidData</td><td><a href="#m1">checkAdminLogin</a></td><td rowspan="1">1727502589232</td><td rowspan="1">659</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">New Employee Registration Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">orangehrm.testcases.EmployeeRegTest</td><td><a href="#m2">checkEmpReg</a></td><td rowspan="1">1727502591017</td><td rowspan="1">4267</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">New User Registration Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">orangehrm.testcases.UserRegTest</td><td><a href="#m3">checkUserReg</a></td><td rowspan="1">1727502597256</td><td rowspan="1">7731</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Employee Login Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">orangehrm.testcases.EmployeeLoginTest</td><td><a href="#m4">closeApp</a></td><td rowspan="1">1727502619923</td><td rowspan="1">31</td></tr><tr><th colspan="4">Employee Login Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">orangehrm.testcases.EmployeeLoginTest</td><td><a href="#m5">checkEmpLogin</a></td><td rowspan="1">1727502605664</td><td rowspan="1">14230</td></tr></tbody>
+</table>
+<h2>Admin Login TestCase with valid credentials</h2><h3 id="m0">orangehrm.testcases.AdminLoginTestwithValidData#checkAdminLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Admin</td><td>Qedge123!@#</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Admin Login TestCase with invalid credentials</h2><h3 id="m1">orangehrm.testcases.AdminLoginTestwithInvalidData#checkAdminLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>abc</td><td>xyz</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>New Employee Registration Test</h2><h3 id="m2">orangehrm.testcases.EmployeeRegTest#checkEmpReg</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Sreekar1</td><td>V</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>New User Registration Test</h2><h3 id="m3">orangehrm.testcases.UserRegTest#checkUserReg</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>ESS</td><td>Sreekar1 V</td><td>Sreekar1</td><td>Qedge123!@#</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Employee Login Test</h2><h3 id="m4">orangehrm.testcases.EmployeeLoginTest#closeApp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=129.0.6668.71)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SRIPRIYA&apos;, ip: &apos;192.168.1.109&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\sripr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf22c57f127dcbebf209d051041e4647
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at utils.AppUtils.closeApp(AppUtils.java:30)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">orangehrm.testcases.EmployeeLoginTest#checkEmpLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Sreekar1</td><td>Qedge123!@#</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.71)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SRIPRIYA&apos;, ip: &apos;192.168.1.109&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\sripr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf22c57f127dcbebf209d051041e4647
+*** Element info: {Using=partial link text, value=Welcome}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByPartialLinkText(RemoteWebDriver.java:388)
+	at org.openqa.selenium.By$ByPartialLinkText.findElement(By.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at orangehrm.library.LoginPage.logout(LoginPage.java:32)
+	at orangehrm.testcases.EmployeeLoginTest.checkEmpLogin(EmployeeLoginTest.java:24)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

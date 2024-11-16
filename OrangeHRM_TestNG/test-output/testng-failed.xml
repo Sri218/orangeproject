@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM Test Suite]">
+  <test thread-count="5" name="Employee Login Test(failed)">
+    <parameter name="uid" value="Sreekar1"/>
+    <parameter name="pwd" value="Qedge123!@#"/>
+    <classes>
+      <class name="orangehrm.testcases.EmployeeLoginTest">
+        <methods>
+          <include name="checkEmpLogin" invocation-numbers="0"/>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- orangehrm.testcases.EmployeeLoginTest -->
+    </classes>
+  </test> <!-- Employee Login Test(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Test Suite] -->

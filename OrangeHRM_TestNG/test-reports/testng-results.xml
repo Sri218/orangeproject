@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-22T05:52:19Z" name="Default suite" finished-at="2024-02-22T05:52:44Z" duration-ms="25345">
+    <groups>
+    </groups>
+    <test started-at="2024-02-22T05:52:19Z" name="Default test" finished-at="2024-02-22T05:52:44Z" duration-ms="25345">
+      <class name="orangehrm.testcases.EmployeeLoginTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:orangehrm.testcases.EmployeeLoginTest@73302995]" started-at="2024-02-22T05:52:11Z" name="launchApp" finished-at="2024-02-22T05:52:19Z" duration-ms="8030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="checkEmpLogin()[pri:0, instance:orangehrm.testcases.EmployeeLoginTest@73302995]" started-at="2024-02-22T05:52:19Z" name="checkEmpLogin" finished-at="2024-02-22T05:52:44Z" duration-ms="25306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmpLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:orangehrm.testcases.EmployeeLoginTest@73302995]" started-at="2024-02-22T05:52:44Z" name="closeApp" finished-at="2024-02-22T05:52:45Z" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- orangehrm.testcases.EmployeeLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

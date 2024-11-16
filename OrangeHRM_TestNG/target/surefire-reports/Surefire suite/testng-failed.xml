@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="orangehrm.testcases.UserRegTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="adminlogout"/>
+          <include name="adminLogin"/>
+          <include name="checkUserReg"/>
+        </methods>
+      </class> <!-- orangehrm.testcases.UserRegTest -->
+      <class name="orangehrm.testcases.EmployeeLoginTest">
+        <methods>
+          <include name="checkEmpLogin"/>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- orangehrm.testcases.EmployeeLoginTest -->
+      <class name="orangehrm.testcases.EmployeeRegTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="checkEmpReg"/>
+          <include name="adminlogout"/>
+          <include name="adminLogin"/>
+        </methods>
+      </class> <!-- orangehrm.testcases.EmployeeRegTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
